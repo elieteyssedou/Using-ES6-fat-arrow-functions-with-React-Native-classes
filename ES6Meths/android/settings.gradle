@@ -1,0 +1,3 @@
+rootProject.name = 'ES6Meths'
+
+include ':app'
