@@ -77,7 +77,6 @@ class GiphyList extends Component {
 
 
     onItemPress = (index, data) => {
-        // console.log('You Pressed', data);
         var state = this.state;
         state.animatedIndex = index;
         this.setState(state);
