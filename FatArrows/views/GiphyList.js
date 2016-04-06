@@ -76,7 +76,7 @@ class GiphyList extends Component {
     }
 
 
-    onItemPress (index, data) {
+    onItemPress = (index, data) => {
         // console.log('You Pressed', data);
         var state = this.state;
         state.animatedIndex = index;
@@ -105,7 +105,7 @@ class GiphyList extends Component {
                                 style={styles.touchable}
                                 index={i}
                                 animate={animIdx == i}
-                                onPress={this.onItemPress.bind(this)}/>
+                                onPress={this.onItemPress}/>
               
             )
         }
